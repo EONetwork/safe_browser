@@ -11,6 +11,9 @@ You need to use node.js version `8.x` to build the browser currently. (`nvm inst
 - `NODE_ENV=dev yarn` (sometimes this fails, re-running it should resolve it)
 - `yarn rebuild`
 
+ And to run dev mode:
+- `yarn prod-dev`
+
 Want to run 'production' variables, but with hot reloading?
 - `yarn put-live-net-files-for-<windows|osx|linux>`
 
