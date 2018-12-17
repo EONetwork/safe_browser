@@ -47,7 +47,7 @@ const preAppLoad = () =>
  */
 const addExtensionMenuItems = ( store, menusArray ) =>
 {
-    logger.verbose( 'Adding SAFE menus to browser' );
+    logger.verbose( 'Adding EO menus to browser' );
 
     const newMenuArray = [];
 
@@ -101,7 +101,7 @@ export const getSafeBackgroundProcessStore = () =>
 
 const onInitBgProcess = async ( store ) =>
 {
-    logger.info( 'Registering SAFE Network Protocols' );
+    logger.info( 'Registering EONetwork Protocols' );
     try
     {
         theSafeBgProcessStore = store;
@@ -140,7 +140,7 @@ const onInitBgProcess = async ( store ) =>
     const authAppInfo = {
         ...mainAppInfo,
         id     : 'net.maidsafe.app.browser.authenticator',
-        name   : 'SAFE Browser Authenticator',
+        name   : 'EO Browser Authenticator',
         icon   : 'iconPath'
     }
 

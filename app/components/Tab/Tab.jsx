@@ -527,7 +527,7 @@ export default class Tab extends Component
                     return;
 
                 console.warn(
-                    \`%cSAFE Browser Experimental Feature
+                    \`%cEO Browser Experimental Feature
 %cThe webIdEventEmitter and window.currentWebId are experimental features.
 They may be deprecated or change in future.
 

@@ -68,7 +68,7 @@ export const setupWebIdEventEmitter = ( passedStore, win = window ) =>
     if ( typeof win !== 'undefined' && experimentsEnabled )
     {
         console.warn(
-            `%cSAFE Browser Experimental Feature
+            `%cEO Browser Experimental Feature
             %cThe webIdEventEmitter is still an experimental API.
             It may be deprecated or change in future.
 
@@ -87,7 +87,7 @@ export const setupWebIdEventEmitter = ( passedStore, win = window ) =>
 
 export const setupSafeAPIs = ( passedStore, win = window ) =>
 {
-    logger.info( 'Setup up SAFE Dom API via @maidsafe/safe-node-app' );
+    logger.info( 'Setup up EO Dom API via @maidsafe/safe-node-app' );
 
     // use from passed object if present (for testing)
     win.safe = win.safe || { ...safe };

@@ -18,7 +18,7 @@
   "Cancel": "Cancel",
   "Don't have a account?": "Don't have a account?",
   "Already have a account?": "Already have a account?",
-  "AppTitle": "SAFE Authenticator",
+  "AppTitle": "EO Authenticator",
   "Revoke Access": "Revoke Access",
   "Permissions": "Permissions",
   "SAFE DRIVE Permission": "SAFE DRIVE Permission",
@@ -30,7 +30,7 @@
   "createAccFailed": "Failed to create user account",
   "AuthIntro": {
     "desc": {
-      "welcome": "Authenticator will act as your gateway to the SAFE Network, you can use it to access data on the network and to authorise apps to connect on your behalf.",
+      "welcome": "Authenticator will act as your gateway to the EO Network, you can use it to access data on the network and to authorise apps to connect on your behalf.",
       "secret": "Your 'account secret' is private and should not be shared with anyone.",
       "password": "Your 'account password' is never stored or transmitted, it will not leave your computer.",
       "inviteCode": "Enter an invitation token or click on the 'Claim an invitation' button."

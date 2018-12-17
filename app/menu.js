@@ -65,13 +65,14 @@ export default class MenuBuilder
         const store = this.store;
 
         const subMenuAbout = {
-            label   : 'SAFE Browser',
+            label   : 'EO Browser',
             submenu : [
-                { label: 'About SAFE Browser', selector: 'orderFrontStandardAboutPanel:' },
+                { label: 'About EO Browser', selector: 'orderFrontStandardAboutPanel:' },
                 { type: 'separator' },
                 { label: 'Services', submenu: [] },
                 { type: 'separator' },
-                { label: `Hide ${pkg.productName}`, accelerator: 'Command+H', selector: 'hide:' },
+//why isn't this reading package.json?                { label: `Hide ${pkg.productName}`, accelerator: 'Command+H', selector: 'hide:' },
+                { label: `Hide EO Browser`, accelerator: 'Command+H', selector: 'hide:' },
                 { label: 'Hide Others', accelerator: 'CommandOrControl+Shift+H', selector: 'hideOtherApplications:' },
                 { label: 'Show All', selector: 'unhideAllApplications:' },
                 { type: 'separator' },
@@ -328,7 +329,7 @@ export default class MenuBuilder
                 { type: 'separator' },
                 { label: 'Bring All to Front', selector: 'arrangeInFront:' },
                 { type: 'separator' },
-                { label : 'Toggle SAFE Browser-shell Devtools (not for web dev debug)',
+                { label : 'Toggle EO Browser-shell Devtools (not for web dev debug)',
                     click : ( item, win ) =>
                     {
                         if ( win )
@@ -342,15 +343,15 @@ export default class MenuBuilder
         const subMenuHelp = {
             label   : 'Help',
             submenu : [
-                { label : 'Learn More about the Safe Network',
+                { label : 'Learn More about the EO Network',
                     click()
                     {
-                        shell.openExternal( 'https://safenetwork.tech/' );
+                        shell.openExternal( 'http://hytralizedeo.io' );
                     } },
                 { label : 'Documentation',
                     click()
                     {
-                        shell.openExternal( 'https://github.com/maidsafe/safe_browser/blob/master/README.md' );
+                        shell.openExternal( 'https://github.com/EONetwork/safe_browser' );
                     } },
                 { label : 'Community Discussions',
                     click()

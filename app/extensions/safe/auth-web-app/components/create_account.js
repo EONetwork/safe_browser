@@ -156,7 +156,7 @@ export default class CreateAccount extends Component
               <div className="auth">
                   <div className="auth-b">
                       <p className="auth-cont-1">
-              Authenticator will act as your gateway to the SAFE Network.<br />
+              Authenticator will act as your gateway to the EONetwork.<br />
               You can use it to access data on the network and to<br />
               authorise apps to connect on your behalf.
                       </p>
@@ -470,7 +470,7 @@ export default class CreateAccount extends Component
       switch ( this.props.navPos )
       {
           case CONSTANTS.CREATE_ACC_NAV.WELCOME:
-              return ( <span><b>SAFE</b> Authenticator</span> );
+              return ( <span><b>EO</b> Authenticator</span> );
           case CONSTANTS.CREATE_ACC_NAV.INVITE_CODE:
               return 'Invitation Token';
           case CONSTANTS.CREATE_ACC_NAV.SECRET_FORM:
@@ -711,7 +711,7 @@ export default class CreateAccount extends Component
           <div>
               <div className="card-main-b">
                   {this.props.loading &&
-                  <CardLoaderFull msg="Registering on SAFE Network">{''}</CardLoaderFull>
+                  <CardLoaderFull msg="Registering on EO Network">{''}</CardLoaderFull>
                   }
                   <div className="card-main-h">{this.getTitle()}</div>
                   { this.getContainer() }

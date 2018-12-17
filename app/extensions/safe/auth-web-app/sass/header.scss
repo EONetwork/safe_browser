@@ -12,7 +12,7 @@ header {
     height: 20px;
     background: {
       color: transparent;
-      image: url("../img/authenticator-name.svg");
+      image: url("../img/authenticator-name.png");
       repeat: no-repeat;
       size: 175px;
     };
@@ -30,7 +30,8 @@ header {
     z-index: 99;
     &.safe-auth-icon {
       background: {
-        image: url("../img/authenticator-logo.svg");
+        image: url("../img/eo-authenticator-logo.png");
+	background-repeat:no-repeat;
       };
     }
   }
